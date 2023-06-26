@@ -1,0 +1,55 @@
+
+#esport {
+  background: #000;
+}
+
+
+.here {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.here h1 {
+  color: white;
+  width: 681px;
+  font-size: 60px;
+}
+
+.morge {
+  color: #57B8FF;
+  font-size: 12px;
+}
+
+.corse {
+  color: rgba(223, 223, 223, 0.80);;
+}
+
+.svg {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.more {
+  width: 150px;
+height: 60px;
+flex-shrink: 0;
+background-color: black;
+color: white;
+border: 1px solid black;
+}
+
+.more:hover {
+  color: white;
+  background: #57B8FF;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.vid video {
+width: 352px;
+height: 700px;
+}

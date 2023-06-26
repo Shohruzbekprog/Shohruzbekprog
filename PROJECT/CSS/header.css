@@ -1,0 +1,166 @@
+.nav-bar ul  {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  color: white;
+}
+.nav-bar ul li:hover {
+  cursor: pointer;
+  color: #FAC422;;
+}
+
+.mode svg {
+  color: white;
+  cursor: pointer;
+}
+
+.mode button {
+  border: 1px solid white;
+  color: white;
+  background: #57B8FF;
+  border-radius: 5px;
+  padding: 20px 30px 10px 5px;
+  cursor: pointer;
+}
+
+.mode{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.container  {
+  max-width:calc(1440px - 60px - 60px - 40px) ;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.memu-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 256px;
+}
+
+.word h1 {
+  display: flex;
+  width: 656px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 67px;
+  font-family: Orbitron;
+  line-height: 86px;
+  text-transform: capitalize;
+  padding-bottom: 45px;
+}
+
+.us {
+  display: flex;
+width: 615px;
+flex-direction: column;
+flex-shrink: 0;
+color: #999;
+font-size: 18px;
+font-family: Orbitron;
+line-height: 28px;
+padding-bottom: 53px;
+}
+
+.es {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 203px;
+color: #57B8FF;
+font-size: 16px;
+font-family: Orbitron;
+line-height: 16px;
+padding-bottom: 14px;
+}
+
+.word button {
+  color: white;
+  background: black;
+  padding: 15px 25px;
+  border: #57B8FF;
+}
+
+.word button:hover {
+  background: #57B8FF;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+
+.container-idea{
+  flex-direction: column;
+}
+
+
+.amar {
+ text-align: center;
+  margin: 0 auto;
+  background: #FDD04A;
+}
+
+.amar h1 {
+  font-size: 48px;
+  padding-top: 127px;
+}
+
+.amar p {
+font-size: 16px;
+color: #555555;
+padding-top: 27px;
+}
+
+.png {
+  padding: 40px 0 140px;
+}
+
+.svg {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.of {
+  color: #57B8FF;
+  padding-top: 10px;
+}
+
+.container-space {
+display: flex;
+flex-direction: column;
+}
+
+.on {
+  color: #DFDFDFCC;
+}
+
+.direct {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.direct h1 {
+display: flex;
+width: 716px;
+flex-direction: column;
+flex-shrink: 0;
+color: white;
+text-align: center;
+font-size: 64px;
+font-family: Orbitron;
+line-height: 74px;
+text-transform: capitalize;
+}

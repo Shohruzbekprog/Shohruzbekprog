@@ -1,0 +1,66 @@
+#footer {
+  background-image: url(/image/orange.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foot-container {
+}
+
+.join {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.join h1 {
+display: flex;
+justify-content: space-between;
+color: #141820;
+text-align: center;
+font-size: 55px;
+font-family: Orbitron;
+line-height: 82px;
+padding: 126px 300px;
+}
+
+.join p {
+  align-items: center;
+  margin: 0 auto;
+display: flex;
+justify-content: space-between;
+width: 718px;
+flex-direction: column;
+color: #555;
+text-align: center;
+font-size: 17px;
+padding-bottom: 50px;
+}
+
+.join input {
+  margin: 0 auto;
+  width: 400px;
+  height: 70px;
+}
+
+.join button {
+  margin: 0 auto;
+  width: 400px;
+  height: 65px;
+  border: 1px solid#57B8FF ;
+  background: #57B8FF;
+}
+
+.sub {
+margin: 0 auto;
+position: relative;
+padding-bottom: 135px;
+}
+
+.sub button {
+  position: absolute;
+  width: 221px;
+  height: 70px;
+}

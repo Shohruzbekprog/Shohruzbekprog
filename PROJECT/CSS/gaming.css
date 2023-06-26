@@ -1,0 +1,65 @@
+
+
+.cal {
+  padding-top: 63px;
+color: white;
+flex-direction: row;
+} 
+
+.need {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.play {
+width: 600px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.15);
+padding: 35px 50px ;
+}
+
+.play h1 {
+  padding-bottom: 17px;
+}
+
+.generation {
+  width: 600px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.15);
+padding: 35px 50px ;
+}
+
+.generation h1 {
+  padding-bottom: 17px;
+}
+
+.engine {
+width: 600px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.15);
+padding: 35px 50px ;
+}
+
+.engine h1 {
+  padding-bottom: 17px;
+}
+
+.go {
+  width: 600px;
+height: 200px;
+flex-shrink: 0;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.15);
+padding: 35px 50px ;
+}
+
+.go h1 {
+  padding-bottom: 17px;
+}

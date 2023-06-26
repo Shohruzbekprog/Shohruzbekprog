@@ -1,0 +1,30 @@
+#gamecenter {
+  background: black;
+}
+
+.bro-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.smooth {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.smooth img {
+  max-width: 414px;
+  width: 480px;
+height: 732px;
+}
+
+.case {
+  flex-direction: column;
+  gap: 5px;
+  padding: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.light  {
+  background-color: white;
+ }
+ 
+ .light * {
+   color: white !important;
+ }
+
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: 'Orbitron', sans-serif;
+}
+.container {
+  max-width:calc(1440-60-60-40) ;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+
+
+#header {
+background: linear-gradient( to right, black 0% 50%, #57B8FF 50% 100%);
+padding-top: 25px;
+
+} 
+
+#our {
+  background: #FDD04A;
+}
+
+#gaming {background-image: url(/image/backgroundimage.png);}
